@@ -7,7 +7,7 @@ $(document).ready(function() {
   })
 });
 
-let prev = 0;
+let prev = 5;
 let $window = $(window);
 let nav = $('.scrollhide-nav');
 
