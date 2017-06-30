@@ -24,7 +24,7 @@
 .marketing-site-hero {
   padding: 30vh 0 20vh 0;
   background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.61)), url("bg.jpg") top right no-repeat;
-  height: 69vh;
+  min-height: 100vh;
   background-size: cover;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -206,4 +206,8 @@
   .no-js .title-bar {
     display: none;
   }
+}
+
+#marketing {
+  min-height: 100vh;
 }
