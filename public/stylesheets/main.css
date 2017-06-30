@@ -4,6 +4,15 @@
 
 /*img overlay css above*/
 
+.app-logo {
+  animation: app-logo-spin infinite 15s linear;
+  height: 45px;
+}
+
+@keyframes app-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
 
 .scrollhide-nav {
   position: fixed;
@@ -100,8 +109,8 @@
 
 
 .marketing-site-footer {
-  background: #2c3840;
-  color: #8aa0ae;
+  background: #95a5a6;
+  color: #fff;
   padding: 2rem 0 0;
 }
 
